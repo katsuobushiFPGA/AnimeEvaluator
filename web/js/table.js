@@ -55,7 +55,7 @@ function addModalLink()
         //コンテンツ取得
         var contents =  $("#anime-table > tbody > tr:nth-child("+index.toString()+") > td");       
 
-        var chartHeader = ["総合点数","シナリオ","キャラクター","演出","音楽","作画","年度","視聴回数","ジャンル","視聴話数","全話数","ステータス","備考"];
+        var chartHeader = ["シナリオ","キャラクター","演出","音楽","作画"];
         var chartContents = [];
         for(var i=3;i<=7;i++) {
             chartContents.push( $(contents[i]).text());
