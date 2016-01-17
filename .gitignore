@@ -1,0 +1,7 @@
+!.gitignore
+*.db
+build/
+dist/
+nbproject/
+src/
+build.xml
