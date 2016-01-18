@@ -108,6 +108,17 @@ function addModalLink()
                     ]
                 };
                 var option = {
+                      // 値の開始値などを自分で設定するか
+                      scaleOverride : true,
+
+                        // 以下の 3 オプションは scaleOverride: true の時に使用
+                        // 値のステップ数
+                        scaleSteps : 5,
+                        // 値のステップする大きさ
+                        scaleStepWidth : 1,
+                        // 値の始まりの値
+                        scaleStartValue : 0,
+    
                   //Boolean - Whether to show lines for each scale point
                     scaleShowLine : true,
 
