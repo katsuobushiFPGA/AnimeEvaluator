@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-var table = d3.select('body').append('table').attr('id','anime-table').attr('class','tablesorter'); //tableタグ追加
+var table = d3.select('body').select('container').append('table').attr('id','anime-table').attr('class','tablesorter'); //tableタグ追加
 var thead = table.append('thead'); //theadタグ追加
 var tbody = table.append('tbody'); //tbodyタグ追加
 
